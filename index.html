@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | E-commerce product page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="logo-navbar">
+      <img class="logo-image" src="images/logo.svg" alt="logo">
+      <ul class="navbar">
+        <li>Collections</li>
+        <li>Men</li>
+        <li>Women</li>
+        <li>About</li>
+        <li>Contact</li>
+      </ul>
+    </div>
+    <div class="profile">
+      <img class="cart-img" src="images/icon-cart.svg" alt="cart"/>
+      <img class="profile-img" src="images/image-avatar.png" alt="profile">
+    </div>
+  </header>
+
+  <main>
+    <div class="product-image-container">
+      <div class="main-image-container">
+        <img src="images/image-product-1.jpg" alt="1st image">
+      </div>
+      <ul class="image-carousel-container">
+        <li><img src="images/image-product-1-thumbnail.jpg" alt="1st imgae"></li>
+        <li><img src="images/image-product-2-thumbnail.jpg" alt="2nd imgae"></li>
+        <li><img src="images/image-product-3-thumbnail.jpg" alt="3rd imgae"></li>
+        <li><img src="images/image-product-4-thumbnail.jpg" alt="4th imgae"></li>
+      </ul>
+      </div>
+    </div>
+
+    <div class="product-info-container">
+      <span class="info_brand">Sneaker Company</span>
+      <h1 class="info_name">Fall Limited <br/>Sneakers</h1>
+      <p class="info_details">These low-profile sneakers are your perfect casual wear companion. Featuring a 
+        durable rubber outer sole, they’ll withstand everything the weather can offer.
+      </p>
+      <div class="price-info-container">
+        <span class="info_current-price">$125.00</span>
+        <span class="info_discount">50%</span>
+      </div>
+      <span class="info_original-price">$250.00</span>
+      <div class="counter">
+        <button>
+          <img src="images/icon-minus.svg" alt="">
+        </button>
+        <input type="text" placeholder="0">
+        <button>
+          <img src="images/icon-plus.svg" alt="">
+        </button>
+      </div>
+      <button class="add-to-cart-btn">
+        <img src="images/icon-cart.svg" alt="cart">
+        <span>Add to Cart</span>
+      </button>
+    </div>
+
+  </main>
+
+
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+</body>
+</html>

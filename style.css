@@ -1,0 +1,157 @@
+:root {
+    font-size: 14px;
+}
+
+/* common */
+* {
+    padding:0;
+    margin:0;
+}
+
+button {
+    all: unset;
+}
+
+ul {
+    padding-left: 0;
+}
+
+li {
+
+    list-style: none;
+}
+
+body{
+    padding: 0 155px;
+}
+
+/* header */
+
+.header{
+    padding: 25px 0 35px 0;
+    border-bottom: 1px solid rgba(0,0,0,.1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.2rem;
+    color: rgba(0,0,0,.4);
+    font-weight: 600;
+}
+
+.logo-navbar {
+    display: flex;
+    align-items: center;
+}
+
+.logo-image{
+    height: 20px;
+    margin-right: 60px;
+}
+
+.navbar{
+    display: flex;
+}
+
+.navbar li {
+    margin-right: 30px;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+}
+
+.cart-img {
+    height: 20px;
+    margin-right: 50px;
+}
+
+.profile-img{
+    height:50px;
+}
+
+
+/* main  */
+main {
+    display: flex;
+    padding: 95px 50px;
+}
+
+.product-image-container {
+    margin-right: 120px;
+}
+
+.main-image-container img{
+    height: 450px;
+    border-radius: 20px;
+}
+
+.image-carousel-container {
+    display:flex;
+    width: 450px;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+.image-carousel-container img{
+    height: 85px;
+    border-radius: 10px;
+}
+
+.product-info-container {
+    padding: 60px 0;
+}
+
+.info_brand {
+    text-transform: uppercase;
+    color: #E07539;
+    font-weight: 900;
+    letter-spacing: 1px;
+    font-size: 1.2rem;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.info_name{
+    font-size: 3.1rem;
+    font-weight: 900;
+    margin-bottom: 30px;
+}
+
+.info_details {
+    color: rgba(0,0,0,.5);
+    font-size: 1.2rem;
+    letter-spacing: .8px;
+    line-height: 1.8rem;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.price-info-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.info_current-price {
+    font-size: 2.1rem;
+    font-weight: 800;
+    letter-spacing: 1px;
+    margin-right: 10px;
+}
+
+.info_discount {
+    padding: 5px 7px;
+    background-color: #FFEDDC;
+    color: #E07539;
+    font-size: 1.2rem;
+    font-weight: 800;
+    border-radius: 5px;
+}
+
+.info_original-price {
+    text-decoration: line-through;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: rgba(0,0,0,.4);
+}
